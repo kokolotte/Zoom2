@@ -10,6 +10,10 @@ enum factions {
 	neutral, ally, enemy
 }
 
+enum gunTypes {
+	two_bullets, three_bullets, spread_shot, laser
+}
+
 global.gameBorderLeft = 30;
 global.gameBorderRight = 390;
 global.gameBorderUpper = 30;

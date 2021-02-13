@@ -32,7 +32,7 @@ x += xVel;
 y += yVel;
 
 bulletCntr++;
-if (bulletCntr >= room_speed/6) {
-	createBullet(90, 7, 2, factions.ally);
+if (bulletCntr >= bulletTimer) {
+	createBullet(90, bulletSpeed, bulletSize, faction);
 	bulletCntr = 0;
 }

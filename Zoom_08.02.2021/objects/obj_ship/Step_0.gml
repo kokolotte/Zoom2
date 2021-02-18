@@ -32,7 +32,24 @@ x += xVel;
 y += yVel;
 
 bulletCntr++;
-if (bulletCntr >= bulletTimer) {
-	createBullet(90, bulletSpeed, bulletSize, faction);
+if (bulletCntr >= bulletTimer) { //bulletSize
+	createBullet(x, y, 90, bulletSpeed, faction, bulletSpread, id, gunType);
 	bulletCntr = 0;
 }
+
+/* semiauto
+bulletCntr++;
+if (bulletCntr >= bulletTimer) {
+	bulletCntr = 0;
+	bulletSemiC = 0;
+	bulletSemiDelay = 10;
+}
+if (bulletSemiC < bulletSemi) {
+	bulletSemiDelay++;
+	if (bulletSemiDelay > 4) {
+		createBullet(90, bulletSpeed, faction, bulletSpread, id, gunType);
+		bulletSemiC++;
+		bulletSemiDelay = 0;
+	}
+}
+*/

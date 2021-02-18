@@ -11,7 +11,7 @@ enum factions {
 }
 
 enum gunTypes {
-	two_bullets, three_bullets, spread_shot, laser
+	two_bullets, three_bullets, spread, laser
 }
 
 global.gameBorderLeft = 30;

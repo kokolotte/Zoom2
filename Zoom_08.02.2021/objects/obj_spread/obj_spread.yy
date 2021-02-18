@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gunnerEnemy",
-    "path": "sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",
+    "name": "spr_spreadEnemy",
+    "path": "sprites/spr_spreadEnemy/spr_spreadEnemy.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,9 +24,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_gunner","path":"objects/obj_gunner/obj_gunner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_gunner","path":"objects/obj_gunner/obj_gunner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_gunner","path":"objects/obj_gunner/obj_gunner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_spread","path":"objects/obj_spread/obj_spread.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_spread","path":"objects/obj_spread/obj_spread.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_spread","path":"objects/obj_spread/obj_spread.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +35,7 @@
     "path": "folders/Objects/Entities/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gunner",
+  "name": "obj_spread",
   "tags": [],
   "resourceType": "GMObject",
 }

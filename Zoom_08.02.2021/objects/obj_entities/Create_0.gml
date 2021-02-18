@@ -1,11 +1,12 @@
 /// @desc Initialize variables
 
-speed = 5;
+speed = 0;
 direction = 0;
 
 invincible = false;
 faction = factions.neutral;
 hp = 1;
+spd = 0;
 
 gunType = -1;
 bulletTimer = room_speed/2;

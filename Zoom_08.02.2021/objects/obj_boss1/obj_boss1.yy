@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gunnerEnemy",
-    "path": "sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",
+    "name": "spr_boss1Enemy",
+    "path": "sprites/spr_boss1Enemy/spr_boss1Enemy.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,9 +24,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_gunner","path":"objects/obj_gunner/obj_gunner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_gunner","path":"objects/obj_gunner/obj_gunner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_gunner","path":"objects/obj_gunner/obj_gunner.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_boss1","path":"objects/obj_boss1/obj_boss1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_boss1","path":"objects/obj_boss1/obj_boss1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_boss1","path":"objects/obj_boss1/obj_boss1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +35,7 @@
     "path": "folders/Objects/Entities/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gunner",
+  "name": "obj_boss1",
   "tags": [],
   "resourceType": "GMObject",
 }

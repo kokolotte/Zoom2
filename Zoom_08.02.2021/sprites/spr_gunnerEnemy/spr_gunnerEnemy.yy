@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"512d4706-0658-4781-84af-488c760e5b85","path":"sprites/spr_ship/spr_ship.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"512d4706-0658-4781-84af-488c760e5b85","path":"sprites/spr_ship/spr_ship.yy",},"LayerId":{"name":"fd3b8d04-670e-4edf-a860-fd1b3ee6408b","path":"sprites/spr_ship/spr_ship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"resourceVersion":"1.0","name":"512d4706-0658-4781-84af-488c760e5b85","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5e0093a9-5893-49f4-ae60-767ed5c3f068","path":"sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5e0093a9-5893-49f4-ae60-767ed5c3f068","path":"sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",},"LayerId":{"name":"3ab9c4b0-363d-4a36-8b8a-bd2cf5f6c1fc","path":"sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gunnerEnemy","path":"sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",},"resourceVersion":"1.0","name":"5e0093a9-5893-49f4-ae60-767ed5c3f068","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},
+    "spriteId": {"name":"spr_gunnerEnemy","path":"sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 60.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ed97f364-9927-49dc-895d-75976e8d8a1b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"512d4706-0658-4781-84af-488c760e5b85","path":"sprites/spr_ship/spr_ship.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a4471975-23e9-4828-a84c-3cc486a883b2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e0093a9-5893-49f4-ae60-767ed5c3f068","path":"sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},
+    "parent": {"name":"spr_gunnerEnemy","path":"sprites/spr_gunnerEnemy/spr_gunnerEnemy.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_ship",
+    "name": "spr_gunnerEnemy",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fd3b8d04-670e-4edf-a860-fd1b3ee6408b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ab9c4b0-363d-4a36-8b8a-bd2cf5f6c1fc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_ship",
+  "name": "spr_gunnerEnemy",
   "tags": [],
   "resourceType": "GMSprite",
 }

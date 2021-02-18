@@ -1,9 +1,9 @@
 /// @desc Core player logic
 
-keyCheckLeft = (keyboard_check(vk_left) || keyboard_check(ord("A")));
-keyCheckRight = (keyboard_check(vk_right) || keyboard_check(ord("D")));
-keyCheckUp = (keyboard_check(vk_up) || keyboard_check(ord("W")));
-keyCheckDown = (keyboard_check(vk_down) || keyboard_check(ord("S")));
+keyCheckLeft = (keyboard_check(vk_left));
+keyCheckRight = (keyboard_check(vk_right));
+keyCheckUp = (keyboard_check(vk_up));
+keyCheckDown = (keyboard_check(vk_down));
 
 var _hmove = keyCheckRight - keyCheckLeft;
 var _vmove = keyCheckDown - keyCheckUp;

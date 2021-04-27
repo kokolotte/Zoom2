@@ -22,10 +22,25 @@ y_velocity = vertical_mv * player_speed;
 x += x_velocity;
 y += y_velocity;
 
+x = clamp(x, 18, room_width-18);
+y = clamp(y, 18, room_height-18);
+
 // shooting
 
 bullet_count++;
 if(bullet_count >= bullet_timer) {
-	create_bullet(x, y, 90, id, obj_PlayerBullet);
+	create_bullet(x, y, 90, bullet_speed, faction);
 	bullet_count = 0;
+}
+
+// invincibility
+
+if(invincible) {
+	if(alarm[0] % interval <= interval/2) {
+		image_alpha = 0.2;
+	} else {
+		image_alpha = 1;
+	}
+} else {
+	image_alpha = 1;
 }

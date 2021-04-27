@@ -1,22 +1,27 @@
-/// @func create_bullet(_x, _y, _direction, _creator, bullet_type)
-/// @desc				Creates a bullet! Wow!
+/// @func create_bullet(_x, _y, _direction, _creator)
 /// @param _x			x position
 /// @param _y			y position
 /// @param _direction	bullet direction
-/// @param _creator		bullet source
-/// @param bullet_type	bullet type
+/// @param _speed		bullet speed
+/// @param _faction		bullet source
 
-function create_bullet(_x, _y, _direction, _creator, bullet_type) {
+function create_bullet(_x, _y, _direction, _speed, _faction) {
 
 	// create instance
 	
-	_instance = instance_create_layer(_x, _y, "Instances", bullet_type);
+	if(_faction == factions.ally) {
+		object_set_sprite(obj_Bullet, spr_PlayerBullet);
+	} else {
+		object_set_sprite(obj_Bullet, spr_EnemyBullet);
+	}
+	_instance = instance_create_layer(_x, _y, "Instances", obj_Bullet);
 	
 	// set instance values
 	
 	with(_instance) {
 		direction = _direction;
 		image_angle = direction;
-		creator = _creator;
+		speed = _speed;
+		faction = _faction;
 	}
 }

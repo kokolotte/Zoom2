@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Boss_Weapon",
+    "path": "sprites/spr_Boss_Weapon/spr_Boss_Weapon.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_par_Enemy",
+    "path": "objects/obj_par_Enemy/obj_par_Enemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Boss",
+    "path": "folders/Objects/Enemy/Boss.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Faction",
+  "name": "obj_Boss_Weapon",
   "tags": [],
   "resourceType": "GMObject",
 }

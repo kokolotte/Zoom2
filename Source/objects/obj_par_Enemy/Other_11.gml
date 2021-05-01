@@ -1,5 +1,7 @@
 /// @desc Take damage.
 
+if(invincible) exit;	// cannot take damage
+
 hitpoints -= 1;			// subtract health
 
 if(hitpoints <= 0) {	// no health, destroy instance

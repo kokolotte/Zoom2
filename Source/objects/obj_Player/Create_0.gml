@@ -1,5 +1,9 @@
 /// @desc Initialize player object.
 
+// Inherit the parent event.
+
+event_inherited();
+
 faction = factions.ally;
 
 // movement
@@ -17,5 +21,4 @@ bullet_count = 0;				// current frame, see bullet_count
 
 // other
 
-invincible = false;
 interval = 15;

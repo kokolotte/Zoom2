@@ -17,6 +17,13 @@ enum factions {
 	neutral
 }
 
-// set font
+enum bullet_types {
+	neutral,
+	sonic,
+	splitter,
+	bouncer
+}
+
+// default font
 
 draw_set_font(fnt_Text);

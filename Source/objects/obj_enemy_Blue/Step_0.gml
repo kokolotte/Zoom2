@@ -13,14 +13,14 @@ y += y_velocity;
 
 bullet_count++;
 if(bullet_count >= bullet_timer) {
-	var _sep = 7;		// distance between weapons
+	var _sep = 5;		// distance between weapons
 	var bullet_angle;
 			
 	var i = 0; repeat(5) {
 		bullet_angle = direction-20 + (i * 10);
 		create_bullet(x+lengthdir_x(_sep, bullet_angle),
 					  y+lengthdir_y(_sep, bullet_angle),
-					  bullet_angle, 5, faction);
+					  bullet_angle, bullet_speed, faction, bullet_types.neutral);
 		i++;	// increment
 	}
 	bullet_count = 0;

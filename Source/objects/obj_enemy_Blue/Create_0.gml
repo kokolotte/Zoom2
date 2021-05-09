@@ -13,4 +13,3 @@ hitpoints = 8;
 
 bullet_speed = 5;
 bullet_timer = 60;
-bullet_count = 0;

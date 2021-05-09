@@ -5,7 +5,7 @@
 /// @param _speed		bullet speed
 /// @param _faction		bullet source
 
-function create_bullet(_x, _y, _direction, _speed, _faction) {
+function create_bullet(_x, _y, _direction, _speed, _faction, _bullet_type) {
 
 	// create instance
 	
@@ -23,5 +23,6 @@ function create_bullet(_x, _y, _direction, _speed, _faction) {
 		image_angle = direction;
 		speed = _speed;
 		faction = _faction;
+		bullet_type = _bullet_type;
 	}
 }

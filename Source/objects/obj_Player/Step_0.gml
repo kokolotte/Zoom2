@@ -23,13 +23,13 @@ x += x_velocity;
 y += y_velocity;
 
 x = clamp(x, 18, room_width-18);
-y = clamp(y, 18, room_height-18);
+y = clamp(y, 450, room_height-18);
 
 // shooting
 
 bullet_count++;
 if(bullet_count >= bullet_timer) {
-	create_bullet(x, y, 90, bullet_speed, faction);
+	create_bullet(x, y, 90, bullet_speed, faction, bullet_types.neutral);
 	bullet_count = 0;
 }
 

@@ -10,5 +10,4 @@ faction = factions.enemy;	// set alignment
 
 direction = 270;			// default direction
 
-init_speed = speed;			// for reset
-bullet_counter = 0;
+bullet_count = 0;

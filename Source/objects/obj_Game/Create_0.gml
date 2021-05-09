@@ -3,7 +3,7 @@
 // set some global variables
 
 score = 0;
-lives = 3;
+lives = 5;
 
 // randomize seed
 
@@ -27,3 +27,7 @@ enum bullet_types {
 // default font
 
 draw_set_font(fnt_Text);
+
+// cursor
+
+cursor = 1;

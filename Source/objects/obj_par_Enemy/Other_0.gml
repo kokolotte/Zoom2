@@ -1,3 +1,5 @@
 /// @desc Must exist within bounds.
 
-instance_destroy();
+if(object_index != obj_Boss_Head && object_index != obj_Boss_Weapon) {
+	instance_destroy();
+}

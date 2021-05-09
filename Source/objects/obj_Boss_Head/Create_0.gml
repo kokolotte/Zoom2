@@ -14,10 +14,9 @@ direction = 270;
 speed = 1;
 direc = 1;
 
-hitpoints = 176;
+hitpoints = 1;
 phase = 1;
 
-// interval = 15;
 
 // spawn weapons
 

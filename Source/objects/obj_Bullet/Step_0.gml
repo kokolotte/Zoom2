@@ -12,7 +12,7 @@ if(bullet_type == bullet_types.sonic) {
 	image_xscale = 3;
 	image_yscale = 3;
 	if(alarm[1] == -1) {
-		alarm[1] = irandom(3.5*room_speed);
+		alarm[1] = irandom(3*room_speed);
 	}
 }
 

@@ -13,7 +13,7 @@ switch(room) {	// text displayed depends on current room state
 		// title card
 		draw_set_font(fnt_Title);
 		draw_text_transformed_color(			// dilated and repositioned
-			room_width/2, room_height/4, "ZOOM",
+			room_width/2, room_height/4, "ZOOM 2",
 			4, 4, 0, c,c,c,c, 1
 		);
 		draw_set_font(fnt_Text);				// reset font style

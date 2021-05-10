@@ -76,8 +76,8 @@ if(obj_Boss_Head.phase == 2 && active) {
 
 if(obj_Boss_Head.phase == 3 && active) {
 	if(orientation == -1) {
-		bullet_speed = 3;
-		bullet_timer = irandom_range(3*room_speed, 6*room_speed);
+		bullet_speed = 4;
+		bullet_timer = irandom_range(2*room_speed, 5*room_speed);
 		
 		bullet_count++;
 		if(bullet_count >= bullet_timer) {
@@ -88,7 +88,7 @@ if(obj_Boss_Head.phase == 3 && active) {
 	
 	if(orientation == 1) {
 		if(spritz < 10) {
-			bullet_speed = 5;
+			bullet_speed = 6;
 			bullet_timer = 7;
 		
 			bullet_count++;

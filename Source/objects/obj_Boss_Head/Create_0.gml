@@ -14,7 +14,7 @@ direction = 270;
 speed = 1;
 direc = 1;
 
-hitpoints = 1;
+hitpoints = 280;
 phase = 1;
 
 

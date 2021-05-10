@@ -6,8 +6,8 @@ if(image_blend != c_red) {
 } else {
 	instance_destroy();
 	var i = 0; repeat(30) {
-		create_bullet(x, y, 0, 9 - i*.25, faction, bullet_types.neutral);
-		create_bullet(x, y, 180, 9 - i*.25, faction, bullet_types.neutral);
+		create_bullet(x, y, 0, 10 - i*.25, faction, bullet_types.neutral);
+		create_bullet(x, y, 180, 10 - i*.25, faction, bullet_types.neutral);
 		i++;
 	}
 }

@@ -2,7 +2,7 @@
 
 // set some global variables
 
-score = 0;
+score = 990;
 lives = 5;
 
 // randomize seed
@@ -31,3 +31,8 @@ draw_set_font(fnt_Text);
 // cursor
 
 cursor = 1;
+
+// audio
+
+audio_group_load(bgm);
+audio_group_load(sfx);

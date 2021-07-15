@@ -24,7 +24,7 @@ if(instance_exists(obj_Boss_Head)) {
 }
 
 if(obj_Boss_Head.phase == 1 && active) {
-	bullet_speed = 3;
+	bullet_speed = 6;
 	bullet_timer = 1;
 	
 	bullet_count++;
@@ -64,7 +64,7 @@ if(obj_Boss_Head.phase == 2 && active) {
 	
 	if(orientation == 1) {
 		bullet_speed = 3;
-		bullet_timer = irandom_range(2*room_speed, 5*room_speed);
+		bullet_timer = irandom_range(1.5*room_speed, 3.5*room_speed);
 		
 		bullet_count2++;
 		if(bullet_count2 >= bullet_timer) {

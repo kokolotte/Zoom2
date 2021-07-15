@@ -11,7 +11,7 @@
     "path": "audiogroups/bgm",
   },
   "soundFile": "msc_Boss.mp3",
-  "duration": 280.377258,
+  "duration": 281.317657,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

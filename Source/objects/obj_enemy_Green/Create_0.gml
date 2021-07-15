@@ -6,5 +6,5 @@ event_inherited();
 
 // added values
 
-speed = 1;
+speed = 1.6;
 hitpoints = 6;

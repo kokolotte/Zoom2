@@ -9,7 +9,7 @@ event_inherited();
 x_velocity = 0;
 y_velocity = 0.75;
 direc = 1;
-hitpoints = 5;
+hitpoints = 4;
 
 bullet_speed = 5;
-bullet_timer = 80;
+bullet_timer = 90;

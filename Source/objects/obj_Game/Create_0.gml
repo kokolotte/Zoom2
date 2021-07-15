@@ -2,7 +2,7 @@
 
 // set some global variables
 
-score = 990;
+score = 0;
 lives = 5;
 
 // randomize seed

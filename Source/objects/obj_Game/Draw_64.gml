@@ -2,8 +2,11 @@
 
 switch(room) {	// text displayed depends on current room state
 	case rm_Game:
-		draw_text_transformed(40, 40, "SCORE: " + string(score),1.5,1.5,0);	// current score
-		draw_text_transformed(40, 80, "LIVES: " + string(lives),1.5,1.5,0);	// current lives
+		draw_text_transformed(40, 40, "SCORE: " + string(score) + "/1000",1.5,1.5,0);	// current score
+		draw_text_transformed(40, 80, "LIVES: " + string(lives) + "/5",1.5,1.5,0);		// current lives
+		
+		var c = make_colour_rgb(50, 50, 50);
+		draw_line_width_colour(0,400,room_width,400,1.5,c,c);
 		break;
 	
 	case rm_Start:
@@ -27,7 +30,7 @@ switch(room) {	// text displayed depends on current room state
 		if(cursor == 2) cursor_height = room_height/4+320;
 		draw_text_transformed(room_width/2-255, cursor_height, ">>",2.3,2.3,0);
 		
-		var offset = 190;
+		var offset = 180;
 		draw_line_width_colour(offset,offset,room_width-offset,offset,5,c,c);							// top left to top right
 		draw_line_width_colour(room_width-offset,offset,room_width-offset,room_height-offset,5,c,c);	// top right to bottom right
 		draw_line_width_colour(room_width-offset,room_height-offset,offset,room_height-offset,5,c,c);	// bottom right to bottom left

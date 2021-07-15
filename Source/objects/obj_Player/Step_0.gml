@@ -2,10 +2,10 @@
 
 // key input
 
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_up = keyboard_check(vk_up);
-key_down = keyboard_check(vk_down);
+key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
+key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
 // determine direction
 
@@ -23,7 +23,7 @@ x += x_velocity;
 y += y_velocity;
 
 x = clamp(x, 18, room_width-18);
-y = clamp(y, 450, room_height-18);
+y = clamp(y, 425, room_height-18);
 
 // shooting
 
